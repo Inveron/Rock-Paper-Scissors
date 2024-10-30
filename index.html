@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 
 <head>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
+<header>
+    <h1>Rock Paper Scissors</h1>
+    <div class="info">
+        <h3 id="score" class="headerText">Score: 0</h3>
+        <h3 id="round" class="headerText">Round: 0</h3>
+    </div>
+    
+</header>
+
 <body>
-    this is a website fo real
+    <div id="popup">
+        <p id="popupMessage"></p>
+    </div>
+    
+    <div id="buttons">
+        <div class="button">
+            <img class="images" alt="A cool picture of rock" src="images/rock.png">
+            <button id="rock" class="choice">Rock</button>
+        </div>
+
+        <div class="button">
+            <img class="images" alt="A cool picture of paper" src="images/paper.png">
+            <button id="paper" class="choice">Paper</button>
+        </div>
+
+        <div class="button">
+            <img class="images" src="images/scissor.png" alt="A cool picture of scissors" >
+            <button id="scissors" class="choice">Scissors</button>
+        </div>
+        
+    </div>
+
+    <div id="resultsContent">
+        <h3 id="results">Press a button to start!</h3>
+    </div>
+
 </body>
