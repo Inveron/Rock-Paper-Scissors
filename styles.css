@@ -75,7 +75,7 @@ body {
 }
 
 #popup {
-    display: flex;
+    display: none;
     margin-left: 38%;
     margin-top: 15px;
     align-items: center;
